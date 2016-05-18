@@ -1,0 +1,27 @@
+<div class="m-index">
+<div class="m-index-container"></div>
+  <footer>
+    <ul>
+      <li class="active" action-type="tap.switch" data-tag="home">
+          <i class="yo-ico">&#xe6ec;</i>
+          <b>首页</b>
+      </li>
+      <li action-type="tap.switch" data-tag="commonZiXun" >
+        <i class="yo-ico">&#xe61f;</i>
+        <b>公益咨询</b>
+      </li>
+      <li action-type="tap.switch" data-tag="eatYaoGuide">
+        <i class="yo-ico">&#xe77a;</i>
+        <b>用药宝典</b>
+      </li>
+      <li action-type="tap.switch" data-tag="ganDanNews">
+        <i class="yo-ico">&#xe647;</i>
+        <b>肝胆新闻</b>
+      </li>
+      <li action-type="tap.switch" data-tag="my">
+        <i class="yo-ico">&#xe67f;</i>
+        <b>我的</b>
+      </li>
+    </ul>
+  </footer>
+</div>

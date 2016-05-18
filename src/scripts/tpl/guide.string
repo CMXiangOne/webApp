@@ -1,0 +1,15 @@
+<div class="swiper-container" id="guide-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="/webapp1502/images/2.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="/webapp1502/images/3.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="/webapp1502/images/1.jpg" />
+      <div id="tiYanGo" action-type="goto.index"></div>
+    </div>
+   
+  </div>
+</div>

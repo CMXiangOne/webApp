@@ -1,0 +1,46 @@
+ <header id="ziXun">
+    <ul>
+      <li class="yo-ico common"></li>
+      <li >公益咨询</li>
+      <li class="common">我要咨询</li>
+    </ul>
+  </header>
+  <section id="lineargrid">
+  	<div>
+  		<ul>
+  			<li>常见问题解答</li>
+  			<li class="yo-ico">&#xe60f;</li>
+  		</ul>
+  	</div>
+  	<div>
+  		<i class="yo-ico">&#xe6b7;</i>
+  		<b>您暂未发布公益咨询</b>
+  	</div>
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

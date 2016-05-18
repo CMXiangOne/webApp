@@ -1,0 +1,47 @@
+ <header id= "myCenterHeader">
+    <ul>    
+      <li>个人中心</li>   
+    </ul>
+  </header>
+  <section id="myCenter" spa-widget="scroll">
+  	<ul>
+  		<li >
+  			<img src="./images/my.png" alt="">
+  			<div>
+  				<b></b>
+  				<b>程满想</b>
+  			</div>
+  		</li>
+  		<li>
+  			<i class="yo-ico">&#xe6d8;</i>
+  			<b>我的订单</b>
+  			<span class="yo-ico">&#xe60f;</span>
+  		</li>
+      <li>
+        <i class="yo-ico">&#xe71f;</i>
+        <b>服务记录</b>
+        <span class="yo-ico">&#xe60f;</span>
+      </li>
+      <li>
+        <i class="yo-ico">&#xe62f;</i>
+        <b>送花记录</b>
+        <span class="yo-ico">&#xe60f;</span>
+      </li>
+      <li>
+        <i class="yo-ico">&#xe631;</i>
+        <b>爱心捐助</b>
+        <span class="yo-ico">&#xe60f;</span>
+      </li>
+      <li>
+        <i class="yo-ico">&#xe634;</i>
+        <b>常用银行卡</b>
+        <span class="yo-ico">&#xe60f;</span>
+      </li>
+      <li>
+        <i class="yo-ico">&#xe61c;</i>
+        <b>设置</b>
+        <span class="yo-ico">&#xe60f;</span>
+      </li>
+  	</ul>
+
+  </section>

@@ -1,0 +1,23 @@
+ <header id= "eatYaoHeader">
+    <ul>    
+      <li>用药宝典</li>   
+    </ul>
+  </header>
+  <section id="eatYao" spa-widget="scroll" data-scroll-id="homeHotScroll">
+    <div style="width: 100%;">
+  	<ul>
+        <div class="head">
+          <img src="/webapp1502/images/arrow.png"/>
+          <span>下拉刷新...</span>
+        </div>
+  		<li ms-repeat="homeList">
+  			<i><img ms-src="el.img"  ></i>
+  			<b ms-text="el.title"></b>
+  		</li>
+       <div class="foot">
+          <img src="/webapp1502/images/arrow.png"/>
+          <span>上拉加载更多...</span>
+        </div>
+  	</ul>
+    </div>
+  </section>

@@ -1,0 +1,95 @@
+#eatYaoHeader{
+	ul{
+		@include flexbox();
+		@include justify-content(center);
+		li{@include flex();
+			font-size: 0.2rem;}
+	}
+}
+
+#eatYao{
+	
+	height: 100%;
+	width: 100%;
+	div{
+		ul{
+			
+			width: 100%;
+
+			li{
+				@include flexbox();
+				@include align-items(center);
+				height: 0.8rem;
+				width: 100%;
+				padding:0 0.2rem;
+				@include border(1px 0 0 0,#ccc);
+				i,b{
+					display: block;
+
+				}
+				i{
+					@include flexbox();
+					@include justify-content(center);
+					width: 1.1rem;
+					img{height: 0.7rem;}
+				}
+				b{
+					@include flex()
+					width: 100%;
+				}
+			}
+
+			  // pull to refresh
+	              .head {
+	                  margin-top: .05rem;
+	                  text-align: center;
+	              }
+	              .head img {
+	                  height: .2rem;
+	                  width: .2rem;
+	                  display: inline-block;
+	                  transform: rotate(180deg);
+	                  -webkit-transform: rotate(180deg);
+	                  transition: transform 150ms;
+	                  -webkit-transition: transform 150ms;
+	              }
+	              .up {
+	                  transform: rotate(360deg) !important;
+	                  -webkit-transform: rotate(360deg) !important;
+	              }
+	              .foot {
+	                  text-align: center;
+	                  margin: .05rem 0;
+	              }
+	              .foot img {
+	                  height: .2rem;
+	                  width: .2rem;
+	                  display: inline-block;
+	                  /*transform: rotate(0deg);*/
+	                  /*-webkit-transform: rotate(0deg);*/
+	                  transition: transform 150ms;
+	                  -webkit-transition: transform 150ms;
+	              }
+	              .down {
+	                  transform: rotate(180deg) !important;
+	                  -webkit-transform: rotate(180deg) !important;
+	              }
+		}
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+  <header>
+    <ul>
+      <li class="yo-ico"></li>
+      <li >肝胆相照</li>
+      <li class="yo-ico">&#xe624;</li>
+    </ul>
+  </header>
+  <section spa-widget="scroll"> 
+      <div>
+        <div class="swiper-container" id="home-swiper">
+           <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <figure>
+                  <img src="./images/1.png" alt="">
+                </figure>
+               </div>
+               <div class="swiper-slide">
+                <figure>
+                  <img src="./images/2.png" alt="">
+                </figure>
+               </div>
+               <div class="swiper-slide">
+                <figure>
+                  <img src="./images/3.png" alt="">
+                </figure>
+               </div>
+               <div class="swiper-slide">
+                <figure>
+                  <img src="./images/4.png" alt="">
+                </figure>
+               </div>
+          </div>
+         </div>
+        
+        <div>
+           <ul>
+            <li>
+              <i class="yo-ico">&#xe6f4;</i>
+              <b>我的专家</b>
+            </li>
+            <li></li>
+            <li>
+              <i class="yo-ico">&#xe62f;</i>
+              <b>VIP服务</b>
+            </li>
+          </ul>
+          <ul>
+            <li> 
+              <i class="yo-ico">&#xe66c;</i>
+              <b>我的病例</b>
+            </li>
+            <li></li>
+            <li>
+              <i class="yo-ico">&#xe63b;</i>
+              <b>科普园地</b>
+            </li>
+          </ul>
+        </div>        
+         <p>
+           <b class="yo-ico">&#xe625;</b>
+           <i>400-175-6866 免费客服电话</i>
+         </p>
+      </div>
+      
+  </section>

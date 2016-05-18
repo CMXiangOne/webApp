@@ -1,0 +1,96 @@
+
+ <header>
+    <ul>
+      <li class="yo-ico"></li>
+      <li >肝胆新闻</li>
+      <li class="yo-ico"></li>
+    </ul>
+  </header>
+  <section spa-widget="scroll" id="ganNews" data-scroll-id="ganDanScroll" > 
+      <div id="ganDanList">
+        <div class="head1">
+              <img src="/webapp1502/images/arrow.png"/>
+              <span>下拉刷新...</span>
+        </div>
+        <div class="swiper-container" id="news-swiper">
+           <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <figure>
+                  <img src="./images/1.png" alt="">
+                </figure>
+               </div>
+               <div class="swiper-slide">
+                <figure>
+                  <img src="./images/2.png" alt="">
+                </figure>
+               </div>
+               <div class="swiper-slide">
+                <figure>
+                  <img src="./images/3.png" alt="">
+                </figure>
+               </div>
+               <div class="swiper-slide">
+                <figure>
+                  <img src="./images/4.png" alt="">
+                </figure>
+               </div>
+          </div>
+         </div>
+        
+        <div class="ganDan-list">
+           <ul>
+          
+            <li ms-repeat="ganDanList">
+             	<i><img ms-src="el.img"></i>
+             	<b>
+             		<h2 ms-text="el.h2"></h2>
+             		<h4 class="inline" ms-text="el.h4"></h4>
+             		<span  ms-text="el.time"></span>
+             	</b>
+            </li>         
+           </ul>
+     	 </div>
+         <div class="foot1">
+              <img src="/webapp1502/images/arrow.png"/>
+              <span>上拉加载更多...</span>
+            </div>
+      </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+
+#ganNews{
+
+	#ganDanList{ 
+		
+				
+		      .head1 {
+                  margin-top: .05rem;
+                  text-align: center;
+               
+                 
+              }
+              .head1 img {
+                  height: .2rem;
+                  width: .2rem;
+                  display: inline-block;
+                  transform: rotate(180deg);
+                  -webkit-transform: rotate(180deg);
+                  transition: transform 150ms;
+                  -webkit-transition: transform 150ms;
+              }
+              .up {
+                  transform: rotate(360deg) !important;
+                  -webkit-transform: rotate(360deg) !important;
+              }
+					
+			.ganDan-list{
+
+				ul{
+					height: 100%;
+					width: 100%;
+					@include flexbox();
+					@include flex-direction(column);
+
+					li{
+						@include flexbox();
+						@include align-items(center);
+						height: .8rem;
+						width: 100%;
+						background:#fff;
+						@include border-radius(0);
+						@include border(1px 0 0 0,#ccc);
+
+						padding:0 0.1rem;
+						i,b{
+							display: block;
+
+						}
+						i{
+							width: 1.1rem;
+							img{height: 0.7rem;}
+						}
+						b{
+							@include flex()
+						
+							h2{ font-family:normal;
+								color:#141414;
+								font-size:15px;
+								line-height:0.22rem;
+								@include ellipsis(true);
+							}
+							h4.inline{
+								 font-family:normal;
+								color:#a3a3a3;
+								font-size:13px;
+								line-height:0.18rem;
+								display: -webkit-box;
+								overflow:hidden;
+								text-overflow:ellipsis;					
+								word-break:break-all;									
+								-webkit-line-clamp:2;
+								text-align:left;
+								 -webkit-box-orient:vertical; 
+								
+							}
+							span{display:block;color:#a3a3a3;
+								font-size:13px;
+								text-align:right;
+								}
+						  }
+					}
+				}
+			}
+
+				
+				
+	 // pull to refresh
+       
+              .foot1 {
+                  text-align: center;
+                  margin: .05rem 0;
+              }
+              .foot1 img {
+                  height: .2rem;
+                  width: .2rem;
+                  display: inline-block;
+                  /*transform: rotate(0deg);*/
+                  /*-webkit-transform: rotate(0deg);*/
+                  transition: transform 150ms;
+                  -webkit-transition: transform 150ms;
+              }
+              .down {
+                  transform: rotate(180deg) !important;
+                  -webkit-transform: rotate(180deg) !important;
+              }
+				
+
+	}
+	
+	
+}
